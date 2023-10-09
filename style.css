@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+#top_navigation{
+    display: inline-block;
+    left: 250px;
+    background-color: #181818;
+    width: 1252px;
+    height: 52px;
+    position: fixed;
+}
+#left_navigation{
+    display: inline-block;
+    background-color: #212121;
+    width: 250px;
+    height: 740px;
+    padding: 10px;
+    position: fixed;
+}
+#categories{
+    display: inline-block;
+    background-color: #181818;
+    width: 1252px;
+    height: 61px;
+    position: fixed;
+    top: 52px;
+    left: 250px;
+    border-bottom: 2px solid #383838 ;
+    border-top: 2px solid #383838;
+}
+#videos{
+    display: inline-block;
+    background-color: #181818;
+    width: 1252px;
+    height: 628px;
+    position: fixed;
+    top: 113px;
+    left: 250px;
+}
+.logo{
+    height: 22px;
+    margin: 10px;
+}
+.hover span {
+    color: WHITE;
+    position: relative;
+    bottom: 20px;
+    left: 20px
+}
+.hover{
+    height: 50px
+}
+.hover:hover{
+    background-color: #383838;
+}
+.hover img{
+    height: 30px;
+    margin: 10px auto;
+    margin-left: 10px;
+}
+.upper_navigation , .middle_navigation ,.bottom_navigation{
+    border-bottom: 2px solid #383838 ;
+}
+.bottom_navigation{
+    overflow-y: scroll;
+}
+#search input{
+    height: 40px;
+    width: 537px;
+    position: fixed;
+    top: 5px;
+    left: 407px;
+    background-color:#181818;
+    border: 1px solid #AAAAAA;
+    border-color: #383838;
+    color: #AAAAAA;
+    font-size: 20px;
+    font-weight: 200;
+}
+.search_box {
+    display: inline-block;
+    background-color: #383838;
+    height: 40px;
+    width: 53px;
+    position: relative;
+    top: 5px;
+    left: 694px;
+}
+.search_box img{
+    position: fixed;
+    height: 30px;
+    top: 10px;
+    left: 954px;
+}
+.voice img {
+    position: fixed;
+    height: 35px;
+    top: 7px;
+    left: 999px;
+}
+#categories span{
+    border: 1px solid #AAAAAA;
+    background-color: #383838;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+#categories{
+    overflow: hidden;
+}
